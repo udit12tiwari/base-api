@@ -1,0 +1,54 @@
+# Maven / Java
+target/
+build/
+out/
+bin/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+*.log
+
+# Maven generated files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# IDEs
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# IntelliJ / Gradle
+out/
+
+# Spring Boot / logs
+spring.log
+logs/
+spring-boot-loader/
+
+# Test / coverage
+surefire-reports/
+failsafe-reports/
+coverage/
+
+# Environment / secrets
+.env
+.env.local
+*.local
+secrets.properties
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
